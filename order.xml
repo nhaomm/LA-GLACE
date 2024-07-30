@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="order.xsl"?>
+
+<!DOCTYPE order [
+<!ELEMENT order (informationOR, informationOR, informationOR, informationOR, informationOR)>
+<!ELEMENT informationOR (idOr, nCusOrder, nProOrder, DateOfPurchasey, total)>
+<!ELEMENT idOr (#PCDATA)>
+<!ELEMENT nCusOrder (#PCDATA)>
+<!ELEMENT nProOrder (#PCDATA)>
+<!ELEMENT DateOfPurchasey (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+
+
+<!ENTITY or "ORDER">
+<!ENTITY com "จาก LA GLACE official">
+
+
+]>
+
+
+<order>
+    <informationOR>
+        <idOr>001</idOr>
+        <nCusOrder>ศรีจันทร์ สวยมาก</nCusOrder>
+        <nProOrder>LA GLACE STARRY MAJESTY GLOW CUSHION #00,
+                   LA GLACE STARRY MAJESTY GLOW CUSHION #01,
+                   LA GLACE STARRY MAJESTY GLOW CUSHION #02 
+        </nProOrder>
+        <DateOfPurchasey>13 ก.ค. 2567</DateOfPurchasey>
+        <total>1,167 บาท</total>
+    </informationOR>
+
+
+    <informationOR>
+        <idOr>002</idOr>
+        <nCusOrder>คิ้วเพรส เจ๋งแจ๋ว</nCusOrder>
+        <nProOrder>LA GLACE STARRY MAJESTY GLOW CUSHION #03,
+                   LA GLACE STARRY MAJESTY GLOW CUSHION #02,
+                   LA GLACE STARRY MAJESTY GLOW CUSHION #04,
+                   LA GLACE STARRY MAJESTY GLOW CUSHION #01
+        </nProOrder>
+        <DateOfPurchasey>4 ม.ค. 2566</DateOfPurchasey>
+        <total>1,556 บาท</total>
+    </informationOR>
+
+
+    <informationOR>
+        <idOr>003</idOr>
+        <nCusOrder>โรจูคิส จำรวย</nCusOrder>
+        <nProOrder>LA GLACE STARRY MAJESTY GLOW CUSHION #01,
+                   LA GLACE STARRY MAJESTY GLOW CUSHION #01
+        </nProOrder>
+        <DateOfPurchasey>25 ก.พ. 2567</DateOfPurchasey>
+        <total>778 บาท</total>
+    </informationOR>
+
+
+    <informationOR>
+        <idOr>004</idOr>
+        <nCusOrder>วาสลีน เก่งดำรง</nCusOrder>
+        <nProOrder>LA GLACE STARRY MAJESTY GLOW CUSHION #03</nProOrder>
+        <DateOfPurchasey>31 ส.ค. 2568</DateOfPurchasey>
+        <total>389 บาท</total>
+    </informationOR>
+
+
+    <informationOR>
+        <idOr>005</idOr>
+        <nCusOrder>ด็อกเตอร์ป๋อง สามัญดี</nCusOrder>
+        <nProOrder>LA GLACE STARRY MAJESTY GLOW CUSHION #03</nProOrder>
+        <DateOfPurchasey>10 มี.ค. 2566</DateOfPurchasey>
+        <total>389 บาท</total>
+    </informationOR>
+</order>

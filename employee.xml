@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+
+<!DOCTYPE employee [
+<!ELEMENT employee (informationEM, informationEM, informationEM, informationEM, informationEM)>
+<!ELEMENT informationEM (idEm, nEmployee, position, duty, salary)>
+<!ELEMENT idEm (#PCDATA)>
+<!ELEMENT nEmployee (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT duty (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+
+
+<!ENTITY em "EMPLOYEE">
+<!ENTITY com "จาก LA GLACE official">
+
+
+]>
+
+
+<employee>
+    <informationEM>
+        <idEm>001</idEm>
+        <nEmployee>ทนง คงควรคอย</nEmployee>
+        <position>ผู้จัดการ</position>
+        <duty>ดูแลจัดการลูกน้อง,รับผิดชอบการดูแลสินค้าทั้งหมด</duty>
+        <salary>20,000 บาท</salary>
+    </informationEM>
+
+
+    <informationEM>
+        <idEm>002</idEm>
+        <nEmployee>อุฟุจิ นาโอมิ</nEmployee>
+        <position>ไรเดอร์</position>
+        <duty>จัดส่งสินค้า</duty>
+        <salary>15,000 บาท</salary>
+    </informationEM>
+
+
+    <informationEM>
+        <idEm>003</idEm>
+        <nEmployee>โดเรมี ฟาซอล</nEmployee>
+        <position>stock</position>
+        <duty>คอยเช็คสต็อกสินค้า</duty>
+        <salary>12,000 บาท</salary>
+    </informationEM>
+
+
+    <informationEM>
+        <idEm>004</idEm>
+        <nEmployee>ทาเคดะ จงรวย</nEmployee>
+        <position>ครีเอทิฟ</position>
+        <duty>สร้างคอนเท้นโปรโมทสินค้า</duty>
+        <salary>18,000 บาท</salary>
+    </informationEM>
+
+
+    <informationEM>
+        <idEm>005</idEm>
+        <nEmployee>อำนวย ชั้นสวยมาก</nEmployee>
+        <position>เซลล์</position>
+        <duty>ไลฟ์สดขายสินค้า</duty>
+        <salary>15,500 บาท</salary>
+    </informationEM>
+</employee>

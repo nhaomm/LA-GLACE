@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="product.xsl"?>
+
+<!DOCTYPE product [
+<!ELEMENT product (informationPro, informationPro, informationPro, informationPro, informationPro)>
+<!ELEMENT informationPro (idPro, nameProduct, detail, price, stock)>
+<!ELEMENT idPro (#PCDATA)>
+<!ELEMENT nameProduct (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+
+
+<!ENTITY pro "PRODUCT">
+<!ENTITY com "จาก LA GLACE official">
+
+
+]>
+
+
+<product>
+    <informationPro>
+        <idPro>01</idPro>
+        <nameProduct>LA GLACE STARRY MAJESTY GLOW CUSHION #00</nameProduct>
+        <detail>สีเบอร์ 00 (PEARL IVORY)</detail>
+        <price>389 บาท</price>
+        <stock>13331 ชิ้น</stock>
+    </informationPro>
+
+
+    <informationPro>
+        <idPro>02</idPro>
+        <nameProduct>LA GLACE STARRY MAJESTY GLOW CUSHION #01</nameProduct>
+        <detail>สีเบอร์ 01 (WAR, VANILLA)</detail>
+        <price>389 บาท</price>
+        <stock>12948 ชิ้น</stock>
+    </informationPro>
+
+
+    <informationPro>
+        <idPro>03</idPro>
+        <nameProduct>LA GLACE STARRY MAJESTY GLOW CUSHION #02</nameProduct>
+        <detail>สีเบอร์ 02 (HONEYMOON)</detail>
+        <price>389 บาท</price>
+        <stock>9116 ชิ้น</stock>
+    </informationPro>
+
+
+    <informationPro>
+        <idPro>04</idPro>
+        <nameProduct>LA GLACE STARRY MAJESTY GLOW CUSHION #03</nameProduct>
+        <detail>สีเบอร์ 03 (PRIME SAND)</detail>
+        <price>389 บาท</price>
+        <stock>791 ชิ้น</stock>
+    </informationPro>
+
+
+    <informationPro>
+        <idPro>05</idPro>
+        <nameProduct>LA GLACE STARRY MAJESTY GLOW CUSHION #04</nameProduct>
+        <detail>สีเบอร์ 04 (TANTANIUM)</detail>
+        <price>389 บาท</price>
+        <stock>926 ชิ้น</stock>
+    </informationPro>
+
+
+</product>

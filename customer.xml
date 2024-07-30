@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+
+<!DOCTYPE customer [
+<!ELEMENT customer (informationcus, informationcus, informationcus, informationcus, informationcus)>
+<!ELEMENT informationcus (idCus, nameCus, email, tell, address)>
+<!ELEMENT idCus (#PCDATA)>
+<!ELEMENT nameCus (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tell (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+
+<!ENTITY cus "CUSTOMER">
+<!ENTITY com "จาก LA GLACE official">
+
+
+]>
+
+
+<customer>
+    <informationcus>
+        <idCus>001</idCus>
+        <nameCus>ศรีจันทร์ สวยมาก</nameCus>
+        <email>srichan111@gmail.com</email>
+        <tell>0235684791</tell>
+        <address>221/589 หมู่บ้านสำรวย เขตบางแค กรุงเทพ 10160</address>
+    </informationcus>
+
+
+    <informationcus>
+        <idCus>002</idCus>
+        <nameCus>คิ้วเพรส เจ๋งแจ๋ว</nameCus>
+        <email>cutepress222@gmail.com</email>
+        <tell>0365488624</tell>
+        <address>21/136 แขวงบางขุนศรี เขตบางกอกน้อย กรุงเทพ 10700</address>
+    </informationcus>
+
+
+    <informationcus>
+        <idCus>003</idCus>
+        <nameCus>โรจูคิส จำรวย</nameCus>
+        <email>rojukiss333@gmail.com</email>
+        <tell>0489567321</tell>
+        <address>247หมู่10 ตำบลขี้เหล็ก อำเภอเมืองปราจีนบุรี ปราจีนบุรี 25000</address>
+    </informationcus>
+
+
+    <informationcus>
+        <idCus>004</idCus>
+        <nameCus>วาสลีน เก่งดำรง</nameCus>
+        <email>vaseline444@gmail.com</email>
+        <tell>0887569243</tell>
+        <address>182 แขวงวัดท่าพระ เขตบางกอกใหญ่ กรุงเทพ 10600</address>
+    </informationcus>
+
+
+    <informationcus>
+        <idCus>005</idCus>
+        <nameCus>ด็อกเตอร์ป๋อง สามัญดี</nameCus>
+        <email>Dpong555@gmail.com</email>
+        <tell>0568732945</tell>
+        <address>70/29 แขวงบางแวก เขตภาษีเจริญ กรุงเทพ 10160</address>
+    </informationcus>
+
+
+</customer>
